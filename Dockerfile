@@ -20,5 +20,5 @@ RUN apk update && \
     
 EXPOSE 8080
     
-CMD ["/opt/calibre/calibre-server","--with-library=/config"]
+CMD ["/opt/calibre/calibre-server","/config"]
     
