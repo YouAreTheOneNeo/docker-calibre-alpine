@@ -18,7 +18,7 @@ RUN apk update && \
     rm -rf /tmp/calibre-installer-cache && \
     mkdir /config
     
-VOLUME ["/config"]
+VOLUME /config
     
 EXPOSE 8080
     
