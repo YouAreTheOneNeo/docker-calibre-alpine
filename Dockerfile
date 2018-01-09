@@ -22,4 +22,4 @@ VOLUME /config
     
 EXPOSE 8080
     
-CMD ["/opt/calibre/calibre-server","/config"]
+CMD ["/opt/calibre/calibre-server","--enable-local-write","/config"]
