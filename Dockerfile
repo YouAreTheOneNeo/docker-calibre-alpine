@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER YouAreTheOneNeo <contact@youaretheoneneo.com>
 
-ENV GLIBC_VERSION 2.26-r0
+ENV GLIBC_VERSION 2.27-r0
 ENV LD_LIBRARY_PATH $LD_LIBRARY_PATH:/opt/calibre/lib
 ENV PATH $PATH:/opt/calibre/bin
 ENV CALIBRE_INSTALLER_SOURCE_CODE_URL https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py
